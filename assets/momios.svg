@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" width="860" height="330" font-family="Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Razones de momios más altas con intervalos de confianza de 95%">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#A99BFF"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F26FC0"/><stop offset="1" stop-color="#8E7BFF"/></linearGradient>
+<linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9F04E"/><stop offset="1" stop-color="#49D8B8"/></linearGradient>
+<linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC766"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="gh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="860" y2="0"><stop offset="0" stop-color="#63D8F2"/><stop offset=".35" stop-color="#A99BFF"/><stop offset=".68" stop-color="#F26FC0"/><stop offset="1" stop-color="#FFC766"/></linearGradient>
+<radialGradient id="gl" cx="731.0" cy="0" r="688.0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0F4C6B" stop-opacity=".6"/><stop offset="1" stop-color="#0F4C6B" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="860" height="330" rx="16"/></clipPath><style>
+.ring{animation:ring 1.8s ease-out both}@keyframes ring{from{stroke-dasharray:0 300}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}
+.em{transform-box:fill-box;transform-origin:center;animation:em 8s ease-in-out infinite alternate}@keyframes em{to{transform:rotate(14deg) scale(1.05)}}
+@media (prefers-reduced-motion:reduce){.ring,.grow,.em{animation:none}}
+</style></defs>
+<g clip-path="url(#c)"><rect width="860" height="330" fill="#0d1117"/><rect width="860" height="330" fill="url(#gl)"/><rect width="860" height="5" fill="url(#bar)"/>
+<rect x="24" y="30" width="5" height="18" rx="2.5" fill="#63D8F2"/>
+<text x="38" y="44" font-size="17" fill="#63D8F2" font-weight="700" text-anchor="start" >Razones de momios más altas</text>
+<text x="24" y="68" font-size="13" fill="#9da7b3" font-weight="400" text-anchor="start" >Cuánto se multiplican los momios de presentar síntomas, con IC de 95%</text>
+<line x1="262.0" y1="90" x2="262.0" y2="284" stroke="#21262d" stroke-width="1"/>
+<text x="262.0" y="300" font-size="11.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >0</text>
+<line x1="345.1" y1="90" x2="345.1" y2="284" stroke="#21262d" stroke-width="1"/>
+<text x="345.0769230769231" y="300" font-size="11.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >2</text>
+<line x1="428.2" y1="90" x2="428.2" y2="284" stroke="#21262d" stroke-width="1"/>
+<text x="428.1538461538462" y="300" font-size="11.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >4</text>
+<line x1="511.2" y1="90" x2="511.2" y2="284" stroke="#21262d" stroke-width="1"/>
+<text x="511.2307692307692" y="300" font-size="11.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >6</text>
+<line x1="594.3" y1="90" x2="594.3" y2="284" stroke="#21262d" stroke-width="1"/>
+<text x="594.3076923076924" y="300" font-size="11.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >8</text>
+<line x1="677.4" y1="90" x2="677.4" y2="284" stroke="#21262d" stroke-width="1"/>
+<text x="677.3846153846155" y="300" font-size="11.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >10</text>
+<line x1="760.5" y1="90" x2="760.5" y2="284" stroke="#21262d" stroke-width="1"/>
+<text x="760.4615384615385" y="300" font-size="11.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >12</text>
+<line x1="303.5" y1="90" x2="303.5" y2="284" stroke="#9da7b3" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="311.53846153846155" y="316" font-size="11.5" fill="#9da7b3" font-weight="400" text-anchor="start" >1 = sin efecto</text>
+<circle cx="30" cy="102" r="5" fill="#3987e5"/>
+<text x="44" y="107" font-size="13.5" fill="#e6edf3" font-weight="500" text-anchor="start" >Le falta compañía, nivel 4</text>
+<path d="M262 94 h305.5 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-305.5 z" fill="#3987e5"/>
+<line x1="450.6" y1="102" x2="770.0" y2="102" stroke="#e6edf3" stroke-width="1.5"/><line x1="450.6" y1="97" x2="450.6" y2="107" stroke="#e6edf3" stroke-width="1.5"/><line x1="770.0" y1="97" x2="770.0" y2="107" stroke="#e6edf3" stroke-width="1.5"/>
+<text x="779.0153846153846" y="107" font-size="13.5" fill="#e6edf3" font-weight="700" text-anchor="start" font-variant-numeric="tabular-nums">7.45</text>
+<circle cx="30" cy="135" r="5" fill="#d95926"/>
+<text x="44" y="140" font-size="13.5" fill="#e6edf3" font-weight="500" text-anchor="start" >Estrés por la pandemia, mucho</text>
+<path d="M262 127 h121.4 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-121.4 z" fill="#d95926"/>
+<line x1="355.0" y1="135" x2="431.1" y2="135" stroke="#e6edf3" stroke-width="1.5"/><line x1="355.0" y1="130" x2="355.0" y2="140" stroke="#e6edf3" stroke-width="1.5"/><line x1="431.1" y1="130" x2="431.1" y2="140" stroke="#e6edf3" stroke-width="1.5"/>
+<text x="440.0615384615385" y="140" font-size="13.5" fill="#e6edf3" font-weight="700" text-anchor="start" font-variant-numeric="tabular-nums">3.02</text>
+<circle cx="30" cy="168" r="5" fill="#199e70"/>
+<text x="44" y="173" font-size="13.5" fill="#e6edf3" font-weight="500" text-anchor="start" >Se siente ignorado, nivel 4</text>
+<path d="M262 160 h106.5 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-106.5 z" fill="#199e70"/>
+<line x1="314.3" y1="168" x2="494.6" y2="168" stroke="#e6edf3" stroke-width="1.5"/><line x1="314.3" y1="163" x2="314.3" y2="173" stroke="#e6edf3" stroke-width="1.5"/><line x1="494.6" y1="163" x2="494.6" y2="173" stroke="#e6edf3" stroke-width="1.5"/>
+<text x="503.61538461538464" y="173" font-size="13.5" fill="#e6edf3" font-weight="700" text-anchor="start" font-variant-numeric="tabular-nums">2.66</text>
+<circle cx="30" cy="201" r="5" fill="#3987e5"/>
+<text x="44" y="206" font-size="13.5" fill="#e6edf3" font-weight="500" text-anchor="start" >Le falta compañía, nivel 3</text>
+<path d="M262 193 h105.7 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-105.7 z" fill="#3987e5"/>
+<line x1="343.4" y1="201" x2="409.0" y2="201" stroke="#e6edf3" stroke-width="1.5"/><line x1="343.4" y1="196" x2="343.4" y2="206" stroke="#e6edf3" stroke-width="1.5"/><line x1="409.0" y1="196" x2="409.0" y2="206" stroke="#e6edf3" stroke-width="1.5"/>
+<text x="418.04615384615386" y="206" font-size="13.5" fill="#e6edf3" font-weight="700" text-anchor="start" font-variant-numeric="tabular-nums">2.64</text>
+<circle cx="30" cy="234" r="5" fill="#3987e5"/>
+<text x="44" y="239" font-size="13.5" fill="#e6edf3" font-weight="500" text-anchor="start" >Le falta compañía, nivel 2</text>
+<path d="M262 226 h94.4 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-94.4 z" fill="#3987e5"/>
+<line x1="338.0" y1="234" x2="389.9" y2="234" stroke="#e6edf3" stroke-width="1.5"/><line x1="338.0" y1="229" x2="338.0" y2="239" stroke="#e6edf3" stroke-width="1.5"/><line x1="389.9" y1="229" x2="389.9" y2="239" stroke="#e6edf3" stroke-width="1.5"/>
+<text x="398.9384615384615" y="239" font-size="13.5" fill="#e6edf3" font-weight="700" text-anchor="start" font-variant-numeric="tabular-nums">2.37</text>
+<circle cx="30" cy="267" r="5" fill="#199e70"/>
+<text x="44" y="272" font-size="13.5" fill="#e6edf3" font-weight="500" text-anchor="start" >Se siente ignorado, nivel 3</text>
+<path d="M262 259 h88.6 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-88.6 z" fill="#199e70"/>
+<line x1="326.0" y1="267" x2="397.0" y2="267" stroke="#e6edf3" stroke-width="1.5"/><line x1="326.0" y1="262" x2="326.0" y2="272" stroke="#e6edf3" stroke-width="1.5"/><line x1="397.0" y1="262" x2="397.0" y2="272" stroke="#e6edf3" stroke-width="1.5"/>
+<text x="406.0" y="272" font-size="13.5" fill="#e6edf3" font-weight="700" text-anchor="start" font-variant-numeric="tabular-nums">2.23</text>
+</g><rect x=".5" y=".5" width="859" height="329" rx="16" fill="none" stroke="#30363d"/></svg>

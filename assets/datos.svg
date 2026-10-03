@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300" font-family="Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Datos del proyecto">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#A99BFF"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F26FC0"/><stop offset="1" stop-color="#8E7BFF"/></linearGradient>
+<linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9F04E"/><stop offset="1" stop-color="#49D8B8"/></linearGradient>
+<linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC766"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="gh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0"><stop offset="0" stop-color="#63D8F2"/><stop offset=".35" stop-color="#A99BFF"/><stop offset=".68" stop-color="#F26FC0"/><stop offset="1" stop-color="#FFC766"/></linearGradient>
+<radialGradient id="gl" cx="357.0" cy="0" r="336.0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6B2466" stop-opacity=".6"/><stop offset="1" stop-color="#6B2466" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="420" height="300" rx="16"/></clipPath><style>
+.ring{animation:ring 1.8s ease-out both}@keyframes ring{from{stroke-dasharray:0 300}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}
+.em{transform-box:fill-box;transform-origin:center;animation:em 8s ease-in-out infinite alternate}@keyframes em{to{transform:rotate(14deg) scale(1.05)}}
+@media (prefers-reduced-motion:reduce){.ring,.grow,.em{animation:none}}
+</style></defs>
+<g clip-path="url(#c)"><rect width="420" height="300" fill="#0d1117"/><rect width="420" height="300" fill="url(#gl)"/><rect width="420" height="5" fill="url(#bar)"/>
+<rect x="24" y="30" width="5" height="18" rx="2.5" fill="#FFC766"/>
+<text x="38" y="44" font-size="17" fill="#FFC766" font-weight="700" text-anchor="start" >Datos</text>
+<rect x="24" y="69" width="84" height="29" rx="7" fill="#63D8F2" fill-opacity=".16"/><rect x="24" y="69" width="4" height="29" rx="2" fill="#63D8F2"/>
+<text x="99" y="90" font-size="18" fill="#e6edf3" font-weight="700" text-anchor="end" font-variant-numeric="tabular-nums">3,575</text>
+<text x="122" y="89" font-size="14" fill="#9da7b3" font-weight="400" text-anchor="start" >registros de la ECENASEM 2021</text>
+<rect x="24" y="111" width="84" height="29" rx="7" fill="#A99BFF" fill-opacity=".16"/><rect x="24" y="111" width="4" height="29" rx="2" fill="#A99BFF"/>
+<text x="99" y="132" font-size="18" fill="#e6edf3" font-weight="700" text-anchor="end" font-variant-numeric="tabular-nums">3,418</text>
+<text x="122" y="131" font-size="14" fill="#9da7b3" font-weight="400" text-anchor="start" >casos completos</text>
+<rect x="24" y="153" width="84" height="29" rx="7" fill="#F26FC0" fill-opacity=".16"/><rect x="24" y="153" width="4" height="29" rx="2" fill="#F26FC0"/>
+<text x="99" y="174" font-size="18" fill="#e6edf3" font-weight="700" text-anchor="end" font-variant-numeric="tabular-nums">11</text>
+<text x="122" y="173" font-size="14" fill="#9da7b3" font-weight="400" text-anchor="start" >variables predictoras</text>
+<rect x="24" y="195" width="84" height="29" rx="7" fill="#FFC766" fill-opacity=".16"/><rect x="24" y="195" width="4" height="29" rx="2" fill="#FFC766"/>
+<text x="99" y="216" font-size="18" fill="#e6edf3" font-weight="700" text-anchor="end" font-variant-numeric="tabular-nums">2,392</text>
+<text x="122" y="215" font-size="14" fill="#9da7b3" font-weight="400" text-anchor="start" >casos de entrenamiento (70%)</text>
+<rect x="24" y="237" width="84" height="29" rx="7" fill="#C9F04E" fill-opacity=".16"/><rect x="24" y="237" width="4" height="29" rx="2" fill="#C9F04E"/>
+<text x="99" y="258" font-size="18" fill="#e6edf3" font-weight="700" text-anchor="end" font-variant-numeric="tabular-nums">1,026</text>
+<text x="122" y="257" font-size="14" fill="#9da7b3" font-weight="400" text-anchor="start" >casos de prueba (30%)</text>
+</g><rect x=".5" y=".5" width="419" height="299" rx="16" fill="none" stroke="#30363d"/></svg>

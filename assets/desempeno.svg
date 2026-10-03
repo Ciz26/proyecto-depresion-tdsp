@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320" font-family="Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Desempeño del modelo: AUC 0.83, sensibilidad 70.7%, especificidad 79.6%, exactitud 76.1%">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#A99BFF"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F26FC0"/><stop offset="1" stop-color="#8E7BFF"/></linearGradient>
+<linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9F04E"/><stop offset="1" stop-color="#49D8B8"/></linearGradient>
+<linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC766"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="gh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0"><stop offset="0" stop-color="#63D8F2"/><stop offset=".35" stop-color="#A99BFF"/><stop offset=".68" stop-color="#F26FC0"/><stop offset="1" stop-color="#FFC766"/></linearGradient>
+<radialGradient id="gl" cx="357.0" cy="0" r="336.0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1F5A3A" stop-opacity=".6"/><stop offset="1" stop-color="#1F5A3A" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="420" height="320" rx="16"/></clipPath><style>
+.ring{animation:ring 1.8s ease-out both}@keyframes ring{from{stroke-dasharray:0 300}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}
+.em{transform-box:fill-box;transform-origin:center;animation:em 8s ease-in-out infinite alternate}@keyframes em{to{transform:rotate(14deg) scale(1.05)}}
+@media (prefers-reduced-motion:reduce){.ring,.grow,.em{animation:none}}
+</style></defs>
+<g clip-path="url(#c)"><rect width="420" height="320" fill="#0d1117"/><rect width="420" height="320" fill="url(#gl)"/><rect width="420" height="5" fill="url(#bar)"/>
+<rect x="24" y="30" width="5" height="18" rx="2.5" fill="#C9F04E"/>
+<text x="38" y="44" font-size="17" fill="#C9F04E" font-weight="700" text-anchor="start" >Desempeño del modelo</text>
+<circle cx="120" cy="112" r="40" fill="none" stroke="#21262d" stroke-width="10"/><circle class="ring" cx="120" cy="112" r="40" fill="none" stroke="url(#g1)" stroke-width="10" stroke-linecap="round" stroke-dasharray="209.3 251.3" transform="rotate(-90 120 112)"/>
+<text x="120" y="118" font-size="17" fill="#e6edf3" font-weight="700" text-anchor="middle" >0.83</text>
+<text x="120" y="178" font-size="13.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >AUC</text>
+<circle cx="300" cy="112" r="40" fill="none" stroke="#21262d" stroke-width="10"/><circle class="ring" cx="300" cy="112" r="40" fill="none" stroke="url(#g2)" stroke-width="10" stroke-linecap="round" stroke-dasharray="177.6 251.3" transform="rotate(-90 300 112)"/>
+<text x="300" y="118" font-size="17" fill="#e6edf3" font-weight="700" text-anchor="middle" >70.7%</text>
+<text x="300" y="178" font-size="13.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >Sensibilidad</text>
+<circle cx="120" cy="240" r="40" fill="none" stroke="#21262d" stroke-width="10"/><circle class="ring" cx="120" cy="240" r="40" fill="none" stroke="url(#g3)" stroke-width="10" stroke-linecap="round" stroke-dasharray="200.0 251.3" transform="rotate(-90 120 240)"/>
+<text x="120" y="246" font-size="17" fill="#e6edf3" font-weight="700" text-anchor="middle" >79.6%</text>
+<text x="120" y="306" font-size="13.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >Especificidad</text>
+<circle cx="300" cy="240" r="40" fill="none" stroke="#21262d" stroke-width="10"/><circle class="ring" cx="300" cy="240" r="40" fill="none" stroke="url(#g4)" stroke-width="10" stroke-linecap="round" stroke-dasharray="191.3 251.3" transform="rotate(-90 300 240)"/>
+<text x="300" y="246" font-size="17" fill="#e6edf3" font-weight="700" text-anchor="middle" >76.1%</text>
+<text x="300" y="306" font-size="13.5" fill="#9da7b3" font-weight="400" text-anchor="middle" >Exactitud</text>
+</g><rect x=".5" y=".5" width="419" height="319" rx="16" fill="none" stroke="#30363d"/></svg>

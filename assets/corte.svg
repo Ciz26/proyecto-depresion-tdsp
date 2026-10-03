@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 270" width="420" height="270" font-family="Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Efecto del punto de corte sobre la sensibilidad y la especificidad">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#A99BFF"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F26FC0"/><stop offset="1" stop-color="#8E7BFF"/></linearGradient>
+<linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9F04E"/><stop offset="1" stop-color="#49D8B8"/></linearGradient>
+<linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC766"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="gh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0"><stop offset="0" stop-color="#63D8F2"/><stop offset=".35" stop-color="#A99BFF"/><stop offset=".68" stop-color="#F26FC0"/><stop offset="1" stop-color="#FFC766"/></linearGradient>
+<radialGradient id="gl" cx="357.0" cy="0" r="336.0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6B4A0F" stop-opacity=".6"/><stop offset="1" stop-color="#6B4A0F" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="420" height="270" rx="16"/></clipPath><style>
+.ring{animation:ring 1.8s ease-out both}@keyframes ring{from{stroke-dasharray:0 300}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}
+.em{transform-box:fill-box;transform-origin:center;animation:em 8s ease-in-out infinite alternate}@keyframes em{to{transform:rotate(14deg) scale(1.05)}}
+@media (prefers-reduced-motion:reduce){.ring,.grow,.em{animation:none}}
+</style></defs>
+<g clip-path="url(#c)"><rect width="420" height="270" fill="#0d1117"/><rect width="420" height="270" fill="url(#gl)"/><rect width="420" height="5" fill="url(#bar)"/>
+<rect x="24" y="30" width="5" height="18" rx="2.5" fill="#FFC766"/>
+<text x="38" y="44" font-size="17" fill="#FFC766" font-weight="700" text-anchor="start" >Efecto del punto de corte</text>
+<rect x="24" y="62" width="12" height="12" rx="3" fill="#9085e9"/>
+<text x="42" y="73" font-size="13" fill="#9da7b3" font-weight="400" text-anchor="start" >Corte de 0.5</text>
+<rect x="150" y="62" width="12" height="12" rx="3" fill="#c98500"/>
+<text x="168" y="73" font-size="13" fill="#9da7b3" font-weight="400" text-anchor="start" >Corte de 0.4165</text>
+<text x="24" y="108" font-size="14" fill="#e6edf3" font-weight="500" text-anchor="start" >Sensibilidad</text>
+<path d="M24 116 h168.2 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-168.2 z" fill="#9085e9"/>
+<text x="204.17" y="129" font-size="13" fill="#e6edf3" font-weight="600" text-anchor="start" font-variant-numeric="tabular-nums">57.4%</text>
+<path d="M24 136 h208.0 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-208.0 z" fill="#c98500"/>
+<text x="244.04000000000002" y="149" font-size="13" fill="#e6edf3" font-weight="600" text-anchor="start" font-variant-numeric="tabular-nums">70.7%</text>
+<text x="24" y="178" font-size="14" fill="#e6edf3" font-weight="500" text-anchor="start" >Especificidad</text>
+<path d="M24 186 h261.6 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-261.6 z" fill="#9085e9"/>
+<text x="297.56" y="199" font-size="13" fill="#e6edf3" font-weight="600" text-anchor="start" font-variant-numeric="tabular-nums">88.5%</text>
+<path d="M24 206 h234.8 a4 4 0 0 1 4 4 v8 a4 4 0 0 1 -4 4 h-234.8 z" fill="#c98500"/>
+<text x="270.77" y="219" font-size="13" fill="#e6edf3" font-weight="600" text-anchor="start" font-variant-numeric="tabular-nums">79.6%</text>
+<text x="24" y="252" font-size="13.5" fill="#9da7b3" font-weight="400" text-anchor="start" >Falsos negativos: de 170 a 117</text>
+</g><rect x=".5" y=".5" width="419" height="269" rx="16" fill="none" stroke="#30363d"/></svg>

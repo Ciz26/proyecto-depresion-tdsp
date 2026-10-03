@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 270" width="420" height="270" font-family="Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Herramientas utilizadas">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#A99BFF"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F26FC0"/><stop offset="1" stop-color="#8E7BFF"/></linearGradient>
+<linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9F04E"/><stop offset="1" stop-color="#49D8B8"/></linearGradient>
+<linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFC766"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="gh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#63D8F2"/><stop offset="1" stop-color="#F26FC0"/></linearGradient>
+<linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="420" y2="0"><stop offset="0" stop-color="#63D8F2"/><stop offset=".35" stop-color="#A99BFF"/><stop offset=".68" stop-color="#F26FC0"/><stop offset="1" stop-color="#FFC766"/></linearGradient>
+<radialGradient id="gl" cx="357.0" cy="0" r="336.0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3B2B8C" stop-opacity=".6"/><stop offset="1" stop-color="#3B2B8C" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="420" height="270" rx="16"/></clipPath><style>
+.ring{animation:ring 1.8s ease-out both}@keyframes ring{from{stroke-dasharray:0 300}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}}
+.em{transform-box:fill-box;transform-origin:center;animation:em 8s ease-in-out infinite alternate}@keyframes em{to{transform:rotate(14deg) scale(1.05)}}
+@media (prefers-reduced-motion:reduce){.ring,.grow,.em{animation:none}}
+</style></defs>
+<g clip-path="url(#c)"><rect width="420" height="270" fill="#0d1117"/><rect width="420" height="270" fill="url(#gl)"/><rect width="420" height="5" fill="url(#bar)"/>
+<rect x="24" y="30" width="5" height="18" rx="2.5" fill="#C9F04E"/>
+<text x="38" y="44" font-size="17" fill="#C9F04E" font-weight="700" text-anchor="start" >Herramientas</text>
+<rect x="24" y="72" width="96" height="34" rx="17" fill="#63D8F2" fill-opacity=".13" stroke="#63D8F2" stroke-opacity=".7"/><circle cx="42" cy="89" r="5" fill="#63D8F2"/>
+<text x="56" y="94" font-size="14.5" fill="#e6edf3" font-weight="500" text-anchor="start" >Python</text>
+<rect x="129.6" y="72" width="96" height="34" rx="17" fill="#A99BFF" fill-opacity=".13" stroke="#A99BFF" stroke-opacity=".7"/><circle cx="147.6" cy="89" r="5" fill="#A99BFF"/>
+<text x="161.6" y="94" font-size="14.5" fill="#e6edf3" font-weight="500" text-anchor="start" >pandas</text>
+<rect x="235.2" y="72" width="139" height="34" rx="17" fill="#F26FC0" fill-opacity=".13" stroke="#F26FC0" stroke-opacity=".7"/><circle cx="253.2" cy="89" r="5" fill="#F26FC0"/>
+<text x="267.2" y="94" font-size="14.5" fill="#e6edf3" font-weight="500" text-anchor="start" >statsmodels</text>
+<rect x="24" y="118" width="147" height="34" rx="17" fill="#FFC766" fill-opacity=".13" stroke="#FFC766" stroke-opacity=".7"/><circle cx="42" cy="135" r="5" fill="#FFC766"/>
+<text x="56" y="140" font-size="14.5" fill="#e6edf3" font-weight="500" text-anchor="start" >scikit-learn</text>
+<rect x="181.2" y="118" width="147" height="34" rx="17" fill="#C9F04E" fill-opacity=".13" stroke="#C9F04E" stroke-opacity=".7"/><circle cx="199.2" cy="135" r="5" fill="#C9F04E"/>
+<text x="213.2" y="140" font-size="14.5" fill="#e6edf3" font-weight="500" text-anchor="start" >Google Colab</text>
+<rect x="24" y="164" width="78" height="34" rx="17" fill="#63D8F2" fill-opacity=".13" stroke="#63D8F2" stroke-opacity=".7"/><circle cx="42" cy="181" r="5" fill="#63D8F2"/>
+<text x="56" y="186" font-size="14.5" fill="#e6edf3" font-weight="500" text-anchor="start" >HTML</text>
+<rect x="112.4" y="164" width="130" height="34" rx="17" fill="#FFC766" fill-opacity=".13" stroke="#FFC766" stroke-opacity=".7"/><circle cx="130.4" cy="181" r="5" fill="#FFC766"/>
+<text x="144.4" y="186" font-size="14.5" fill="#e6edf3" font-weight="500" text-anchor="start" >JavaScript</text>
+<rect x="252.4" y="164" width="104" height="34" rx="17" fill="#F26FC0" fill-opacity=".13" stroke="#F26FC0" stroke-opacity=".7"/><circle cx="270.4" cy="181" r="5" fill="#F26FC0"/>
+<text x="284.4" y="186" font-size="14.5" fill="#e6edf3" font-weight="500" text-anchor="start" >Netlify</text>
+</g><rect x=".5" y=".5" width="419" height="269" rx="16" fill="none" stroke="#30363d"/></svg>

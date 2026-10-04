@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 150" width="860" height="150" font-family="Segoe UI,Helvetica,Arial,sans-serif" role="img" aria-label="Sample_Data">
+<defs>
+<linearGradient id="bar" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="860" y2="0"><stop offset="0" stop-color="#63D8F2"/><stop offset=".35" stop-color="#A99BFF"/><stop offset=".68" stop-color="#F26FC0"/><stop offset="1" stop-color="#FFC766"/></linearGradient>
+<radialGradient id="gl" cx="731.0" cy="0" r="688.0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3B2B8C" stop-opacity=".6"/><stop offset="1" stop-color="#3B2B8C" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="860" height="150" rx="16"/></clipPath><style>
+.em{transform-box:fill-box;transform-origin:center;animation:em 8s ease-in-out infinite alternate}@keyframes em{to{transform:rotate(14deg) scale(1.05)}}
+@media (prefers-reduced-motion:reduce){.em{animation:none}}
+</style></defs>
+<g clip-path="url(#c)"><rect width="860" height="150" fill="#0d1117"/><rect width="860" height="150" fill="url(#gl)"/><rect width="860" height="5" fill="url(#bar)"/>
+<defs><linearGradient id="gh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A99BFF"/><stop offset="1" stop-color="#63D8F2"/></linearGradient></defs><path class="em" d="M82 26c32-13 58 6 62 36s-13 58-45 62-62-17-64-47 15-38 47-51z" fill="url(#gh)"/><text x="90" y="84" font-size="19" fill="#0d1117" font-weight="800" text-anchor="middle" letter-spacing="1.2">DATOS</text><text x="178" y="68" font-size="29" fill="#e6edf3" font-weight="800" text-anchor="start" >Sample_Data</text><text x="178" y="98" font-size="14.5" fill="#9da7b3" font-weight="400" text-anchor="start" >Los datos del proyecto y su diccionario</text><rect x="178" y="112" width="69" height="24" rx="12" fill="#A99BFF" fill-opacity=".16" stroke="#A99BFF" stroke-opacity=".5"/><text x="212.3" y="128.5" font-size="12.5" fill="#A99BFF" font-weight="600" text-anchor="middle" >Fase 2</text><rect x="254.6" y="112" width="296" height="24" rx="12" fill="#A99BFF" fill-opacity=".16" stroke="#A99BFF" stroke-opacity=".5"/><text x="402.5" y="128.5" font-size="12.5" fill="#A99BFF" font-weight="600" text-anchor="middle" >Adquisición y comprensión de los datos</text>
+</g><rect x=".5" y=".5" width="859" height="149" rx="16" fill="none" stroke="#30363d"/></svg>

@@ -1,4 +1,11 @@
-<a href="https://estimadordedepresion.netlify.app"><img src="assets/encabezado.svg" width="100%" alt="Síntomas depresivos en adultos mayores. Modelo de regresión logística con metodología TDSP"></a>
+<p>
+<a href="https://github.com/Ciz26/proyecto-depresion-tdsp"><img src="assets/nav_inicio_on.svg" width="24.4%" alt="Inicio"></a>
+<a href="https://github.com/Ciz26/proyecto-depresion-tdsp/tree/main/Code"><img src="assets/nav_code.svg" width="24.4%" alt="Code"></a>
+<a href="https://github.com/Ciz26/proyecto-depresion-tdsp/tree/main/Docs"><img src="assets/nav_docs.svg" width="24.4%" alt="Docs"></a>
+<a href="https://github.com/Ciz26/proyecto-depresion-tdsp/tree/main/Sample_Data"><img src="assets/nav_sample_data.svg" width="24.4%" alt="Sample_Data"></a>
+</p>
+
+<p><a href="https://estimadordedepresion.netlify.app"><img src="assets/encabezado.svg" width="100%" alt="Síntomas depresivos en adultos mayores. Modelo de regresión logística con metodología TDSP"></a></p>
 
 <p>
 <img src="assets/equipo.svg" width="49.5%" alt="Equipo del proyecto y sus roles">
@@ -21,7 +28,7 @@ flowchart LR
 <a href="https://colab.research.google.com/drive/1j5IQcg1WNEXS5NYZ0ek21SKx2GrVsm-5?usp=sharing"><img src="assets/matriz.svg" width="49.5%" alt="Matriz de confusión con el punto de corte de 0.4165"></a>
 </p>
 
-<a href="https://colab.research.google.com/drive/1j5IQcg1WNEXS5NYZ0ek21SKx2GrVsm-5?usp=sharing"><img src="assets/momios.svg" width="100%" alt="Razones de momios más altas con intervalos de confianza de 95%"></a>
+<p><a href="https://colab.research.google.com/drive/1j5IQcg1WNEXS5NYZ0ek21SKx2GrVsm-5?usp=sharing"><img src="assets/momios.svg" width="100%" alt="Razones de momios más altas con intervalos de confianza de 95%"></a></p>
 
 <p>
 <img src="assets/corte.svg" width="49.5%" alt="Efecto del punto de corte sobre la sensibilidad y la especificidad">
